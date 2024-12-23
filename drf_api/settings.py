@@ -53,8 +53,8 @@ INSTALLED_APPS = [
     'rest_framework',
 
     'profiles',
+    'posts',
 ]
-
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
