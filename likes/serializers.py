@@ -22,3 +22,6 @@ class LikeSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError({
                 'detail': 'possible deplicate'
             })
+
+
+
